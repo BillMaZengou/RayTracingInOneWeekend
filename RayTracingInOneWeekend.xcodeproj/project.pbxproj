@@ -25,6 +25,15 @@
 /* Begin PBXFileReference section */
 		6950CD732648F9CB004A5213 /* RayTracingInOneWeekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracingInOneWeekend; sourceTree = BUILT_PRODUCTS_DIR; };
 		6950CD762648F9CB004A5213 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6950CD7E2648FD72004A5213 /* vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		6950CD8026490240004A5213 /* color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		6950CD8126490DE1004A5213 /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		6950CD8226498296004A5213 /* hittable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable.h; sourceTree = "<group>"; };
+		6950CD8326498326004A5213 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		6950CD86264987AC004A5213 /* hittable_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable_list.h; sourceTree = "<group>"; };
+		6950CD8726498D65004A5213 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		6950CD882649921A004A5213 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		6950CD89264A27ED004A5213 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,15 @@
 			isa = PBXGroup;
 			children = (
 				6950CD762648F9CB004A5213 /* main.cpp */,
+				6950CD7E2648FD72004A5213 /* vec3.h */,
+				6950CD8026490240004A5213 /* color.h */,
+				6950CD8126490DE1004A5213 /* ray.h */,
+				6950CD8226498296004A5213 /* hittable.h */,
+				6950CD8326498326004A5213 /* sphere.h */,
+				6950CD86264987AC004A5213 /* hittable_list.h */,
+				6950CD8726498D65004A5213 /* Utility.h */,
+				6950CD882649921A004A5213 /* camera.h */,
+				6950CD89264A27ED004A5213 /* material.h */,
 			);
 			path = RayTracingInOneWeekend;
 			sourceTree = "<group>";
@@ -179,7 +197,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -232,6 +250,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
