@@ -39,6 +39,7 @@
 		69B499DE264B6BBC00CB8094 /* AABB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AABB.h; sourceTree = "<group>"; };
 		69B499DF264BA35700CB8094 /* bvh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bvh.h; sourceTree = "<group>"; };
 		69B499E1264BCD2100CB8094 /* texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		69B499E2264BF20900CB8094 /* perlin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				69B499DE264B6BBC00CB8094 /* AABB.h */,
 				69B499DF264BA35700CB8094 /* bvh.h */,
 				69B499E1264BCD2100CB8094 /* texture.h */,
+				69B499E2264BF20900CB8094 /* perlin.h */,
 			);
 			path = RayTracingInOneWeekend;
 			sourceTree = "<group>";

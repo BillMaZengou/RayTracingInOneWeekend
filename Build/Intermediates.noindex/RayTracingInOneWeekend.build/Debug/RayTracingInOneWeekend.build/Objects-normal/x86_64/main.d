@@ -11,4 +11,5 @@ dependencies: \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/camera.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/material.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/texture.h \
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/perlin.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/moving_sphere.h

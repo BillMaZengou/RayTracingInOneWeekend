@@ -9,6 +9,7 @@
 #define texture_h
 
 #include "Utility.h"
+#include "perlin.h"
 
 class texture {
     public:
@@ -50,6 +51,20 @@ class checker_texture : public texture {
             return odd->value(u, v, p);
         else
             return even->value(u, v, p);
+    }
+};
+
+class noise_texture : public texture {
+    public:
+        perlin noise;
+        double scale;
+    
+    public:
+        noise_texture() {}
+        noise_texture(double sc) : scale(sc) {}
+        
+    virtual color value(double u, double v, const vec3& p) const override {
+        return color(1, 1, 1) * 0.5 * (1.0 + sin(scale * p.z() + 10 * noise.turb(p)));
     }
 };
 
