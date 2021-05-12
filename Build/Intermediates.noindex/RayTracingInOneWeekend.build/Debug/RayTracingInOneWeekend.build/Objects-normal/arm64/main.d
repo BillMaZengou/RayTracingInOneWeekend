@@ -8,4 +8,5 @@ dependencies: \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/hittable.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/sphere.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/camera.h \
-  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/material.h
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/material.h \
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/moving_sphere.h
