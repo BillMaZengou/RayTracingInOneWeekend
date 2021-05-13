@@ -12,4 +12,6 @@ dependencies: \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/material.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/texture.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/perlin.h \
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/use_stb_image.h \
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/external/stb_image.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/moving_sphere.h
