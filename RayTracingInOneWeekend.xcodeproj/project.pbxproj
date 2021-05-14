@@ -42,6 +42,9 @@
 		69B499E2264BF20900CB8094 /* perlin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
 		69B499E3264CD10800CB8094 /* use_stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = use_stb_image.h; sourceTree = "<group>"; };
 		69B499E5264CD26800CB8094 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		69B499E7264CEDE900CB8094 /* axisAlignedRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = axisAlignedRect.h; sourceTree = "<group>"; };
+		69B499E8264D152000CB8094 /* box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		69B499E9264EB01700CB8094 /* constant_medium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constant_medium.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,9 @@
 				69B499E1264BCD2100CB8094 /* texture.h */,
 				69B499E2264BF20900CB8094 /* perlin.h */,
 				69B499E3264CD10800CB8094 /* use_stb_image.h */,
+				69B499E7264CEDE900CB8094 /* axisAlignedRect.h */,
+				69B499E8264D152000CB8094 /* box.h */,
+				69B499E9264EB01700CB8094 /* constant_medium.h */,
 			);
 			path = RayTracingInOneWeekend;
 			sourceTree = "<group>";
