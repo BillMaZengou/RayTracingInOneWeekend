@@ -17,4 +17,5 @@ dependencies: \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/moving_sphere.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/axisAlignedRect.h \
   /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/box.h \
-  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/constant_medium.h
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/constant_medium.h \
+  /Users/billma/Desktop/Learning/RayTracingInOneWeekend/RayTracingInOneWeekend/bvh.h
